@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ h1, h2, h3, h4, h5, h6, p, a {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header{
+    background-color: seashell;
+    padding-bottom: 10px;
+}
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(139, 89, 65)
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color:rgb(164, 174, 183)
+}
+a:hover {
+    color: rgb(223, 165, 165);
+}
+
+article {
+    background-color: rgb(199, 227, 227);
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+article h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
